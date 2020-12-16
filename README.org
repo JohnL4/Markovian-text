@@ -21,5 +21,6 @@ Likewise, if you feed it the Gettysburg Address, you'll some Lincolnesque gibber
 minimum).
 
 For town names, you probably want /k/ = 3 and =--preserveLineBreaks=, but for just a stream of text, you probably don't
-want that.
+want that.  (Note also, if you're really trying to generate random town names, you'll probably wind up with some exact
+copies of existing towns, so check your spiffy new town name against the input if you care about that.)
 
