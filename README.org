@@ -24,3 +24,7 @@ For town names, you probably want /k/ = 3 and =--preserveLineBreaks=, but for ju
 want that.  (Note also, if you're really trying to generate random town names, you'll probably wind up with some exact
 copies of existing towns, so check your spiffy new town name against the input if you care about that.)
 
+Alsø, if you want lists of town names, this site seems decent and easy:
+https://www.westvirginia-demographics.com/cities_by_population.  Substitute the state you want.
+
+
