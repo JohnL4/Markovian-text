@@ -1,0 +1,25 @@
+Silly little Python script to generate random gibberish based on sample text.
+
+The idea is that it builds frequency tables of "what's next" based on "what came before".  You pick the length of "what
+came before" (/k/).
+
+So, if you have a sample input file that looks like:
+
+#+BEGIN_EXAMPLE
+Albertville
+Farmville
+Farmingdale
+Wilmington
+#+END_EXAMPLE
+
+and you manage to build the random sequence "ill", you'll definitely get "e" as your next letter (if $k = 3$).
+
+But if you build the random sequence "ing", then you might get a "d" or "t" as the next letter (50% chance).  Ditto
+"arm" leading to either "i" or "v".
+
+Likewise, if you feed it the Gettysburg Address, you'll some Lincolnesque gibberish ($k = 4$ seems to be a good
+minimum).
+
+For town names, you probably want $k = 3$ and =--preserveLineBreaks=, but for just a stream of text, you probably don't
+want that.
+
