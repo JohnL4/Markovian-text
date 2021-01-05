@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 class MarkovDict:
    """
-   A "dictionary" of frequency tables, mapping from a 23 of characters (possibly 0-length) to a frequency table
+   A "dictionary" of frequency tables, mapping from a prefix string of characters (possibly 0-length) to a frequency table
    of characters that follow that prefix.
    """
    def __init__( self, k: int):
